@@ -9,7 +9,7 @@ Frustum::~Frustum(void) {
 
 // NOTE: The far plane has been commented out because I am not testing things
 //       that are outside the far plane anyway so those are wasted clacs. So the
-//       loops go to < 5, accept of course the functions that only use 3 planes. 
+//       loops go to < 5, except of course the functions that only use 3 planes. 
 
 //--------------------------------------------------------------------------------------------
 void Frustum::BuildFrustumPlanes(D3DXMATRIXA16 &ViewProj) {
